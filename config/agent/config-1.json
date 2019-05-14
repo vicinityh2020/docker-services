@@ -1,0 +1,13 @@
+{
+  "credentials": {
+    "agent-id": "XX",
+    "password": "XX"
+  },
+  "adapters": [
+    {
+      "adapter-id": "XX-adapter",
+      "active-discovery": "true"
+    }
+  ]
+}
+

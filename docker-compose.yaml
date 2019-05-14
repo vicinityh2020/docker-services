@@ -1,0 +1,29 @@
+version: '3'
+services:
+  gateway:
+    image: acimmino/gateway-api:0.7.0
+    volumes:
+    - ./config/gateway/GatewayConfig.xml:/gateway/config/GatewayConfig.xml
+    ports:
+    - 8181:8181
+    networks:
+        frontend:
+                ipv4_address: 10.6.0.5
+  agent:
+    image: acimmino/vicinity-agent:6.3.2
+    volumes:
+    - ./config/agent/config-1.json:/usr/src/myapp/agent/config/agents/config-1.json
+    - ./config/agent/service-config.json:/usr/src/myapp/agent/config/service-config.json
+    ports:
+    - 9997:9997
+    networks:
+        frontend:
+                ipv4_address: 10.6.0.6
+networks:
+  frontend:
+    driver: bridge
+    ipam:
+        config:
+        - subnet: 10.6.0.0/16
+
+    
