@@ -47,6 +47,6 @@ Before running the services the agent must be configured, to achieve this goal j
 }
 ````
 
-Fill the *agent-id* and the *password* using your credentials from the neighbourhood manager in the section access point. If you do not have any access point create a new one before.
+Fill the *agent-id* and the *password* using your credentials from the neighbourhood manager in the section access point. If you do not have any access point create a new one before. Finally replace *adapter-id* with a name for your adapter.
 
 
