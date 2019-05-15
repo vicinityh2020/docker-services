@@ -1,6 +1,6 @@
 # VICINITY Docker Services
 
-The VICINITY Docker Services is a pre-prepared docker recipe that runs the services of the [Gateway API](https://github.com/vicinityh2020/vicinity-gateway-api) and the [Agent](https://github.com/vicinityh2020/vicinity-agent) core components from VICINTIY. The goal of this recipe is to leverage the deployment work required by third-part users who will only need to setup these services with their credentials.
+The VICINITY Docker Services is a pre-prepared docker recipe that runs the services of the [Gateway API](https://github.com/vicinityh2020/vicinity-gateway-api) and the [Agent](https://github.com/vicinityh2020/vicinity-agent) core components from VICINITY. The goal of this recipe is to leverage the deployment work required by third-part users who will only need to setup these services with their credentials.
 
 ## Quick start
 
