@@ -14,6 +14,7 @@ services:
     volumes:
     - ./config/agent/config-1.json:/usr/src/myapp/agent/config/agents/config-1.json
     - ./config/agent/service-config.json:/usr/src/myapp/agent/config/service-config.json
+    - ./config/agent/db:/usr/src/myapp/agent/config/db
     ports:
     - 9997:9997
     networks:
