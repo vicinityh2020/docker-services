@@ -1,7 +1,7 @@
 version: '3'
 services:
   gateway:
-    image: acimmino/gateway-api:0.7.0
+    image: acimmino/gateway-api:0.7.1
     volumes:
     - ./config/gateway/GatewayConfig.xml:/gateway/config/GatewayConfig.xml
     ports:

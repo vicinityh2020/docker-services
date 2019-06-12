@@ -404,7 +404,7 @@
 			
 			Defaults to localhost.
 			-->
-			<agent>localhost</agent>
+			<agent>10.6.0.6</agent>
 			
 			<!-- 
 			Port on which the REST Agent listens.
